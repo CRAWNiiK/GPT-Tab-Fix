@@ -1,7 +1,7 @@
 # GPT-Tab-Fix
 ## Python script to convert spaces to tabs
 
-This Python script reads a file line by line, detects the number of spaces used for tab indents, and replaces the appropriate amount of tabs into their place.
+This Python script reads a file line by line and replaces the appropriate amount of tabs into their place.
 
 ## Usage
 
