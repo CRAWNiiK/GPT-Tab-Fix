@@ -8,8 +8,7 @@ This Python script reads a file line by line and replaces the appropriate amount
 1. Make sure you have Python 3 installed on your system.
 2. Place the script in the same directory as the file you want to convert.
 3. Open a terminal or command prompt and navigate to the script directory.
-4. Run the script by typing `python tab-fix.py`.
-5. Follow the prompts to enter the name of the input file
+4. Run the script by typing `python tab-fix.py inputfile.py outputfile.py` where the inputfile and outputfile are the proper input and output files.
 
 
 ## Notes

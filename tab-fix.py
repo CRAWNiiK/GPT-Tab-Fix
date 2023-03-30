@@ -1,5 +1,12 @@
-input_file = input("Enter input file name: ")
-output_file = "new_" + input_file
+import argparse
+parser = argparse.ArgumentParser()
+parser.add_argument('i', type=str, help='Input file')
+parser.add_argument('o', type=str, help='Output file')
+
+args=parser.parse_args()
+
+input_file = args.i
+output_file = args.o
 
 with open(input_file, "r") as f_in:
 	with open(output_file, "w") as f_out:
